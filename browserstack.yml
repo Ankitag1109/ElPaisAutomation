@@ -1,0 +1,32 @@
+userName: YOUR_USERNAME
+accessKey: YOUR_ACCESS_KEY
+
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Ventura
+    browserName: Safari
+    browserVersion: latest
+
+  - deviceName: iPhone 14
+    osVersion: 16
+    browserName: safari
+
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12
+    browserName: chrome
+
+parallelsPerPlatform: 1
+
+browserstackLocal: false
+buildName: ElPais Automation
+projectName: Selenium Assignment
