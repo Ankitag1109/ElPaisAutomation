@@ -41,7 +41,7 @@ ElPaisAutomation/
 │   └── word_counter.py
 │
 ├── tests/
-│   └── test_el_pais.py
+│   └── test_elpais_multibrowser.py
 │
 ├── images/                # Downloaded article images
 ├── .env                   # BrowserStack credentials (not pushed to GitHub)
